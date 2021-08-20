@@ -1,0 +1,107 @@
+{
+  "uid" : "e4d78f34daac3221",
+  "name" : "TC05-Bejelentkezés/valid",
+  "fullName" : "loginpage.LoginPageTest.validLoginCheck2",
+  "historyId" : "1f28c54a79e4500fc09018130b76ee23",
+  "time" : {
+    "start" : 1629474764217,
+    "stop" : 1629474769283,
+    "duration" : 5066
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629474764231,
+      "stop" : 1629474765530,
+      "duration" : 1299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629474769203,
+      "stop" : 1629474769274,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "6635@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validLoginCheck2"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "dcbb4c386ca59ee3",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/dcbb4c386ca59ee3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473445354,
+          "stop" : 1629473450540,
+          "duration" : 5186
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e4d78f34daac3221.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,107 @@
+{
+  "uid" : "a8eef295ab665fc7",
+  "name" : "TC14-Privacy Policy/verzió,Adatkezelési nyilatkozat használata",
+  "fullName" : "privacyPolicy.PrivacyPolicyTest.PrivacyTestVersionCheck",
+  "historyId" : "2443c073a8603ce9b155ae564a39b004",
+  "time" : {
+    "start" : 1629475096993,
+    "stop" : 1629475098154,
+    "duration" : 1161
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629475096994,
+      "stop" : 1629475097639,
+      "duration" : 645
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629475098086,
+      "stop" : 1629475098153,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "6635@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "PrivacyTestVersionCheck"
+  }, {
+    "name" : "suite",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d1f48b80775c049b",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/d1f48b80775c049b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473757225,
+          "stop" : 1629473758216,
+          "duration" : 991
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8eef295ab665fc7.json",
+  "parameterValues" : [ ]
+}

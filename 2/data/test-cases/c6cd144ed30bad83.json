@@ -1,0 +1,79 @@
+{
+  "uid" : "c6cd144ed30bad83",
+  "name" : "InputClearModifyData()",
+  "fullName" : "sandboxPage.SandBoxPageTest.InputClearModifyData",
+  "historyId" : "9d3c30136e26e5ae5ad0a4b3da718ade",
+  "time" : {
+    "start" : 1629474794161,
+    "stop" : 1629474794161,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void sandboxPage.SandBoxPageTest.InputClearModifyData() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "6635@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sandboxPage.SandBoxPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sandboxPage.SandBoxPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "InputClearModifyData"
+  }, {
+    "name" : "suite",
+    "value" : "sandboxPage.SandBoxPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c77a5d1c903df0c7",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/c77a5d1c903df0c7",
+        "status" : "skipped",
+        "statusDetails" : "public void sandboxPage.SandBoxPageTest.InputClearModifyData() is @Disabled",
+        "time" : {
+          "start" : 1629473473092,
+          "stop" : 1629473473092,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6cd144ed30bad83.json",
+  "parameterValues" : [ ]
+}
