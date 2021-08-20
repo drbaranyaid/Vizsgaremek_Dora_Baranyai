@@ -31,8 +31,10 @@ public class FirstPageTest extends BaseTest {
     public void LogoutTest() {
         loginPage = new LoginPage(driver);
         loginPage.ValidLogin();
+        TakeScreenshot2();
         firstPage = new FirstPage(driver);
         firstPage.clickLogoutButton();
+        TakeScreenshot2();
         homePage = new HomePage(driver);
         Assertions.assertTrue(driver.findElement(homePage.loginButton).getText().contains("Log in"));
     }
@@ -42,8 +44,10 @@ public class FirstPageTest extends BaseTest {
     public void LogoutTest2() {
         loginPage = new LoginPage(driver);
         loginPage.ValidLogin();
+        TakeScreenshot2();
         firstPage = new FirstPage(driver);
         firstPage.clickLogoutButton();
+        TakeScreenshot2();
         homePage = new HomePage(driver);
         Assertions.assertEquals("https://en.wikipedia.org/wiki/Main_Page",driver.getCurrentUrl());
     }
