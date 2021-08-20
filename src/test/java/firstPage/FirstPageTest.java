@@ -51,7 +51,7 @@ public class FirstPageTest extends BaseTest {
         homePage = new HomePage(driver);
         Assertions.assertEquals("https://en.wikipedia.org/wiki/Main_Page",driver.getCurrentUrl());
     }
-    @Disabled
+    /*@Disabled
     @Test
     @DisplayName("TC25-Adatok lementése felületről") // bejelentkezés captcha-t kér
     public void SaveToFile() {
@@ -64,7 +64,7 @@ public class FirstPageTest extends BaseTest {
         TakeScreenshot2();
         Assertions.assertTrue(firstPage.writeToAFile().toString().contains("Nominate an article"));
         Assertions.assertEquals(driver.findElement(searchedField).getText()+"\n",firstPage.writeToAFile().toString());
-    }
+    }*/
     @Step("TakeScreenshot2")
     public void TakeScreenshot2(){
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));

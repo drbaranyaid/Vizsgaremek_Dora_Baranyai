@@ -24,8 +24,8 @@ Csak a Sandbox viselkedésének a feltérképezésére szolgál*/
     public final By sandBox = By.xpath("//*[@id='pt-sandbox']/a");
     public final By textfield = By.xpath("//*[@id='wpTextbox1']");
     public final By preview = By.xpath("//*[@id='wpPreview']");
-
-    @Test
+}
+    /*@Test
     @Disabled
     public void repeatedData() {
         homePage.clickLoginButton();
@@ -90,7 +90,7 @@ Csak a Sandbox viselkedésének a feltérképezésére szolgál*/
         Assertions.assertTrue(driver.findElement(textfield).getText().contains("I am the new data!"));
     }
 
-}
+}*/
 
     /*
 
