@@ -1,0 +1,87 @@
+{
+  "uid" : "4a9c7f1381d99cdc",
+  "name" : "TC15-Privacy Policy/tartalom,Adatkezelési nyilatkozat használata",
+  "fullName" : "privacyPolicy.PrivacyPolicyTest.PrivacyTestSummaryCheck",
+  "historyId" : "21e08ad55ab258ef91262bdc8e34b4fc",
+  "time" : {
+    "start" : 1629473756151,
+    "stop" : 1629473757223,
+    "duration" : 1072
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629473756154,
+      "stop" : 1629473756759,
+      "duration" : 605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629473757155,
+      "stop" : 1629473757222,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "6192@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testClass",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "PrivacyTestSummaryCheck"
+  }, {
+    "name" : "suite",
+    "value" : "privacyPolicy.PrivacyPolicyTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a9c7f1381d99cdc.json",
+  "parameterValues" : [ ]
+}

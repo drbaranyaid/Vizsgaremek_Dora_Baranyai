@@ -1,0 +1,87 @@
+{
+  "uid" : "e521df733a874032",
+  "name" : "TC10-Bejelentkezés/invalid/special characters",
+  "fullName" : "loginpage.LoginPageTest.ZeroLogInTest",
+  "historyId" : "ac91a6d14af980181316dd1e2560e3e3",
+  "time" : {
+    "start" : 1629473452360,
+    "stop" : 1629473453953,
+    "duration" : 1593
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629473452361,
+      "stop" : 1629473452972,
+      "duration" : 611
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629473453885,
+      "stop" : 1629473453953,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "6192@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ZeroLogInTest"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e521df733a874032.json",
+  "parameterValues" : [ ]
+}

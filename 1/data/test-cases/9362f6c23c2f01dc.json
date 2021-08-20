@@ -1,0 +1,87 @@
+{
+  "uid" : "9362f6c23c2f01dc",
+  "name" : "TC16-Search/adatok listázása/link szöveg ellenőrzéssel",
+  "fullName" : "searchResultPage.SearchResultPageTest.SearchOnePageResultCheck",
+  "historyId" : "208ea8d9e6ad919b0b5d921c5aae8105",
+  "time" : {
+    "start" : 1629473643910,
+    "stop" : 1629473645953,
+    "duration" : 2043
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629473643911,
+      "stop" : 1629473644594,
+      "duration" : 683
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629473645885,
+      "stop" : 1629473645953,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "6192@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchOnePageResultCheck"
+  }, {
+    "name" : "suite",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9362f6c23c2f01dc.json",
+  "parameterValues" : [ ]
+}

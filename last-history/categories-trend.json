@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 4,
+    "Test defects" : 3
+  }
+} ]

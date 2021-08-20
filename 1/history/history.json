@@ -1,0 +1,632 @@
+{
+  "87d2ea9c3ee76a610d9d0c1fc39ce273" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f08446867ae86e35",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/f08446867ae86e35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473645955,
+        "stop" : 1629473648814,
+        "duration" : 2859
+      }
+    } ]
+  },
+  "91fcaf79df1b7ab3fdbc80ec6dc54e02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fac33b946db81e9",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/6fac33b946db81e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473563135,
+        "stop" : 1629473641350,
+        "duration" : 78215
+      }
+    } ]
+  },
+  "4b123a8cafb924780186fdf14315dba7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f718d0ebf900c48",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/9f718d0ebf900c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473641352,
+        "stop" : 1629473643909,
+        "duration" : 2557
+      }
+    } ]
+  },
+  "7028a51c405ec39045307408da048329" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4da8cc3c989bf5d2",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/4da8cc3c989bf5d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473648815,
+        "stop" : 1629473651881,
+        "duration" : 3066
+      }
+    } ]
+  },
+  "17a47154c2c9d5a938c4bf52e16e46b4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "832a40d322ad7bc4",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/832a40d322ad7bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473467027,
+        "stop" : 1629473468010,
+        "duration" : 983
+      }
+    } ]
+  },
+  "526d9388400de0bf9747d0bbf0abfba6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa9868b8078f80e5",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/aa9868b8078f80e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473473108,
+        "stop" : 1629473563133,
+        "duration" : 90025
+      }
+    } ]
+  },
+  "ec8997be45648a4df134cd18f06e8501" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69ab38752bc39a23",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/69ab38752bc39a23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473468983,
+        "stop" : 1629473470928,
+        "duration" : 1945
+      }
+    } ]
+  },
+  "743eb681f2c889c21da4ae97cf3a18f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53c6cf7e06cbd9db",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/53c6cf7e06cbd9db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473453955,
+        "stop" : 1629473457927,
+        "duration" : 3972
+      }
+    } ]
+  },
+  "1f28c54a79e4500fc09018130b76ee23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcbb4c386ca59ee3",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/dcbb4c386ca59ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473445354,
+        "stop" : 1629473450540,
+        "duration" : 5186
+      }
+    } ]
+  },
+  "208ea8d9e6ad919b0b5d921c5aae8105" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9362f6c23c2f01dc",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/9362f6c23c2f01dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473643910,
+        "stop" : 1629473645953,
+        "duration" : 2043
+      }
+    } ]
+  },
+  "7052832ae43610adca71a4f5a0f35bcd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74ca2d7e37f9382c",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/74ca2d7e37f9382c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wpName2']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.wFAN5A}, goog:chromeOptions: {debuggerAddress: localhost:35841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eff27b100eeae0412cf6c6ed38d85c6c\n*** Element info: {Using=xpath, value=//*[@id='wpName2']}",
+      "time" : {
+        "start" : 1629473701935,
+        "stop" : 1629473713434,
+        "duration" : 11499
+      }
+    } ]
+  },
+  "2443c073a8603ce9b155ae564a39b004" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1f48b80775c049b",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/d1f48b80775c049b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473757225,
+        "stop" : 1629473758216,
+        "duration" : 991
+      }
+    } ]
+  },
+  "53e6f942ea4c97561934f8bbffa27976" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e16a7a6e3e6bd93a",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/e16a7a6e3e6bd93a",
+      "status" : "failed",
+      "statusDetails" : "expected: <List of typefaces\nTypeface\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nVariable font\nType\nFont Awesome\nCalibri\nWonton font\nGoogle Fonts\nClearType\nSerif\nLiberation fonts\nBaptismal font\nList of typefaces\nTypeface\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nVariable font\nType\nFont Awesome\nCalibri\nWonton font\nGoogle Fonts\nClearType\nSerif\nLiberation fonts\nBaptismal font\nItalic type\nConsolas\nCambria (typeface)\nMonospaced font\nBitstream Speedo Fonts\nEmphasis (typography)\nFallback font\nGeorgia (typeface)\nDoves Press\nOblique type\nType foundry\nLucida\nComputer Modern\nBaptismal font\nWeb typography\nFonts on Macintosh\nAdobe Fonts\nConstantia (typeface)\nList of type designers\nCandara> but was: <List of typefaces\nTypeface\nComputer font\nPostScript fonts\nTrueType\nFont\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nClearType\nType\nCalibri\nVariable font\nSerif\nWonton font\nLiberation fonts\nFont Awesome\nCambria (typeface)\nConsolas\nList of typefaces\nTypeface\nComputer font\nPostScript fonts\nTrueType\nFont\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nClearType\nType\nCalibri\nVariable font\nSerif\nWonton font\nLiberation fonts\nFont Awesome\nCambria (typeface)\nConsolas\nBitstream Speedo Fonts\nItalic type\nConsolas\nCambria (typeface)\nMonospaced font\nFallback font\nBaptismal font\nOblique type\nDoves Press\nAdobe Fonts\nGeorgia (typeface)\nFonts on Macintosh\nType foundry\nComputer Modern\nEmphasis (typography)\nTypeface anatomy\nCroscore fonts\nLucida\nConstantia (typeface)\nCandara\n>",
+      "time" : {
+        "start" : 1629473651883,
+        "stop" : 1629473654803,
+        "duration" : 2920
+      }
+    } ]
+  },
+  "9d3c30136e26e5ae5ad0a4b3da718ade" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c77a5d1c903df0c7",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/c77a5d1c903df0c7",
+      "status" : "skipped",
+      "statusDetails" : "public void sandboxPage.SandBoxPageTest.InputClearModifyData() is @Disabled",
+      "time" : {
+        "start" : 1629473473092,
+        "stop" : 1629473473092,
+        "duration" : 0
+      }
+    } ]
+  },
+  "286ff8f3a47791bb0018190fae279b96" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41d94de1dab5a58",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/41d94de1dab5a58",
+      "status" : "failed",
+      "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu E-series engine\nDaihatsu Midget\nDaihatsu Charmant\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Boon\nToyota SZ engine\nDaihatsu Hijet\nToyota Avanza\nDaihatsu K-series engine\nDaihatsu Cast\nDaihatsu Sigra\nDaihatsu New Global Architecture\nDaihatsu Ayla\nToyota bB\nDaihatsu New Global Architecture\nDaihatsu Move Canbus\nDaihatsu Esse\nDaihatsu Rocky (A200)\nDaihatsu Thor\nDaihatsu H-series engine\nDaihatsu J-series engine\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nPerodua Myvi\nToyota KR engine\nList of Toyota vehicles\nDaihatsu Storia\nDaihatsu Compagno\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nList of Subaru vehicles\n>",
+      "time" : {
+        "start" : 1629473699246,
+        "stop" : 1629473701920,
+        "duration" : 2674
+      }
+    } ]
+  },
+  "6fc95dd719ea937cc6aaf4608be3a7b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dc1e94427a24378",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/1dc1e94427a24378",
+      "status" : "skipped",
+      "statusDetails" : "public void firstPage.FirstPageTest.SaveToFile() is @Disabled",
+      "time" : {
+        "start" : 1629473713443,
+        "stop" : 1629473713443,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f86853fd7bd37e1e3f7db713e488d31f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba64fcd8d993439c",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/ba64fcd8d993439c",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1629473459845,
+        "stop" : 1629473461285,
+        "duration" : 1440
+      }
+    } ]
+  },
+  "4155b32fc8d46319699c66efb4c47ee1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "595b33a2a4a67282",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/595b33a2a4a67282",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#pt-logout > a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.OJVBvV}, goog:chromeOptions: {debuggerAddress: localhost:39971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 312282d9cb5d6f6c2e923f07c1e61d8b\n*** Element info: {Using=css selector, value=#pt-logout > a}",
+      "time" : {
+        "start" : 1629473734861,
+        "stop" : 1629473756139,
+        "duration" : 21278
+      }
+    } ]
+  },
+  "2aa87ffa0970d8976ef2723990e88705" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47cd6f088bbfac43",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/47cd6f088bbfac43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473472042,
+        "stop" : 1629473473076,
+        "duration" : 1034
+      }
+    } ]
+  },
+  "1300ae392f923849b1a923705405160b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef04297b893ee877",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/ef04297b893ee877",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473468012,
+        "stop" : 1629473468981,
+        "duration" : 969
+      }
+    } ]
+  },
+  "9d8bcd54bd03fcfc13b3e0258fbd0627" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bcbef36a66ce308",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/3bcbef36a66ce308",
+      "status" : "failed",
+      "statusDetails" : "expected: <Fiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\n> but was: <Fiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 127\nFiat 500\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat 508\nNasr (car company)\nFiat Twin Cam engine\nCompañía Colombiana Automotriz\nTKS\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 127\nFiat 500\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat 508\nNasr (car company)\nFiat Twin Cam engine\nCompañía Colombiana Automotriz\nTKS\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 127\nFiat 500\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat 508\nNasr (car company)\nFiat Twin Cam engine\nCompañía Colombiana Automotriz\nTKS\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\n>",
+      "time" : {
+        "start" : 1629473654806,
+        "stop" : 1629473699242,
+        "duration" : 44436
+      }
+    } ]
+  },
+  "8b3a36daa459133fa049668a407c98dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "151f71bf9e951f27",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/151f71bf9e951f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473470930,
+        "stop" : 1629473472040,
+        "duration" : 1110
+      }
+    } ]
+  },
+  "79d7e79380bf6dbda75856982b2e13ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7358c5d80b24c3d8",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/7358c5d80b24c3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473462894,
+        "stop" : 1629473464154,
+        "duration" : 1260
+      }
+    } ]
+  },
+  "805080a63e3781a3c06883d42261ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5e25b97f1b36ffa",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/b5e25b97f1b36ffa",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#pt-logout > a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.bf35cP}, goog:chromeOptions: {debuggerAddress: localhost:37979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e80ef771b863a47f25252dee51497c37\n*** Element info: {Using=css selector, value=#pt-logout > a}",
+      "time" : {
+        "start" : 1629473713455,
+        "stop" : 1629473734858,
+        "duration" : 21403
+      }
+    } ]
+  },
+  "ac91a6d14af980181316dd1e2560e3e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e521df733a874032",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/e521df733a874032",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473452360,
+        "stop" : 1629473453953,
+        "duration" : 1593
+      }
+    } ]
+  },
+  "73169441bc52b7dabf61bcdf859b2c06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d374612e0d1c6125",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/d374612e0d1c6125",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473457930,
+        "stop" : 1629473459843,
+        "duration" : 1913
+      }
+    } ]
+  },
+  "21e08ad55ab258ef91262bdc8e34b4fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a9c7f1381d99cdc",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/4a9c7f1381d99cdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473756151,
+        "stop" : 1629473757223,
+        "duration" : 1072
+      }
+    } ]
+  },
+  "6fd521975ffa863d9d350b07c49db290" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86b393af29d41bde",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/86b393af29d41bde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473450621,
+        "stop" : 1629473452356,
+        "duration" : 1735
+      }
+    } ]
+  },
+  "b830d4226ca0fa081fd08a8b37ac51aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4eac0315a706edf0",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/4eac0315a706edf0",
+      "status" : "skipped",
+      "statusDetails" : "public void sandboxPage.SandBoxPageTest.repeatedData() is @Disabled",
+      "time" : {
+        "start" : 1629473473084,
+        "stop" : 1629473473084,
+        "duration" : 0
+      }
+    } ]
+  },
+  "afe2ffbe7601c29118b3aeae878c8ba8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69df8b46fe82aa86",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/69df8b46fe82aa86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473464156,
+        "stop" : 1629473467024,
+        "duration" : 2868
+      }
+    } ]
+  },
+  "6d3d934278726fe2f9d8699a30c7de37" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25c0d054752a6df1",
+      "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/25c0d054752a6df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629473461303,
+        "stop" : 1629473462892,
+        "duration" : 1589
+      }
+    } ]
+  }
+}

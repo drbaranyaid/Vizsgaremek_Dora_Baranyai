@@ -1,0 +1,87 @@
+{
+  "uid" : "7358c5d80b24c3d8",
+  "name" : "pageCheckCreateAccount()",
+  "fullName" : "homepage.HomePageTest.pageCheckCreateAccount",
+  "historyId" : "79d7e79380bf6dbda75856982b2e13ea",
+  "time" : {
+    "start" : 1629473462894,
+    "stop" : 1629473464154,
+    "duration" : 1260
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629473462895,
+      "stop" : 1629473463519,
+      "duration" : 624
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629473464089,
+      "stop" : 1629473464154,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "6192@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "pageCheckCreateAccount"
+  }, {
+    "name" : "suite",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7358c5d80b24c3d8.json",
+  "parameterValues" : [ ]
+}
