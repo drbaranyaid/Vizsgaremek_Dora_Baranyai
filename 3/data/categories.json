@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "TC09-Bejelentkezés/invalid",
+        "uid" : "973ab1d41618dafb",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629476194551,
+          "stop" : 1629476196079,
+          "duration" : 1528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "expected: <List of typefaces\nTypeface\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nVariable font\nType\nFont Awesome\nCalibri\nWonton font\nGoogle Fonts\nClearType\nSerif\nLiberation fonts\nBaptismal font\nList of typefaces\nTypeface\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nUnicode font\nWeb Open Font Format\nEmbedded OpenType\nVariable font\nType\nFont Awesome\nCalibri\nWonton font\nGoogle Fonts\nClearType\nSerif\nLiberation fonts\nBaptismal font\nItalic type\nConsolas\nCambria (typeface)\nMonospaced font\nBitstream Speedo Fonts\nEmphasis (typography)\nFallback font\nGeorgia (typeface)\nDoves Press\nOblique type\nType foundry\nLucida\nComputer Modern\nBaptismal font\nWeb typography\nFonts on Macintosh\nAdobe Fonts\nConstantia (typeface)\nList of type designers\nCandara> but was: <Typeface\nList of typefaces\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nWeb Open Font Format\nUnicode font\nEmbedded OpenType\nType\nClearType\nCalibri\nVariable font\nFont Awesome\nUbuntu (typeface)\nSerif\nWonton font\nBitstream Speedo Fonts\nLiberation fonts\nTypeface\nList of typefaces\nComputer font\nPostScript fonts\nFont\nTrueType\nOpenType\nWeb Open Font Format\nUnicode font\nEmbedded OpenType\nType\nClearType\nCalibri\nVariable font\nFont Awesome\nUbuntu (typeface)\nSerif\nWonton font\nBitstream Speedo Fonts\nLiberation fonts\nConsolas\nBitstream Speedo Fonts\nItalic type\nCambria (typeface)\nMonospaced font\nFallback font\nBaptismal font\nOblique type\nDoves Press\nAdobe Fonts\nGeorgia (typeface)\nFonts on Macintosh\nType foundry\nEmphasis (typography)\nTypeface anatomy\nCroscore fonts\nLucida\nCandara\nConstantia (typeface)\nList of CJK fonts\n>",
+      "children" : [ {
+        "name" : "TC21-Search/több oldalas lista bejárása/full list check",
+        "uid" : "1e890867ea9bba49",
+        "parentUid" : "5b34829c1a9351c0992770ff17fc33b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629476429978,
+          "stop" : 1629476433151,
+          "duration" : 3173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b34829c1a9351c0992770ff17fc33b0"
+    }, {
+      "name" : "expected: <Fiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat 1300 and 1500\nFiat Seicento\nFiat 500\nFiat 127\nFiat 518\nFiat S.p.A.\nFiat Panda\nFSO Polonez\nFiat 131\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nFiat 508\nCompañía Colombiana Automotriz\nList of rally cars\nTKS\nUrsus A\nList of World War II weapons of Poland\n> but was: <Fiat 126\nFiat Seicento\nFiat 1300 and 1500\nFiat 127\nFiat 500\nFiat 518\nFiat Panda\nFiat S.p.A.\nFSO Polonez\nFiat 131\nFiat 508\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nTKS\nCompañía Colombiana Automotriz\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat Seicento\nFiat 1300 and 1500\nFiat 127\nFiat 500\nFiat 518\nFiat Panda\nFiat S.p.A.\nFSO Polonez\nFiat 131\nFiat 508\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nTKS\nCompañía Colombiana Automotriz\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\nFiat 126\nFiat Seicento\nFiat 1300 and 1500\nFiat 127\nFiat 500\nFiat 518\nFiat Panda\nFiat S.p.A.\nFSO Polonez\nFiat 131\nFiat 508\nFiat 524\nFabryka Samochodów Osobowych\nFiat Twin Cam engine\nNasr (car company)\nTKS\nCompañía Colombiana Automotriz\nList of rally cars\nUrsus A\nList of World War II weapons of Poland\n>",
+      "children" : [ {
+        "name" : "TC27-Search/több oldalas lista összes oldala bejárása/full list check",
+        "uid" : "469acaaacbb5ac4d",
+        "parentUid" : "4bc9552f118f08ddaf92926ebdac67a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629476433154,
+          "stop" : 1629476477326,
+          "duration" : 44172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4bc9552f118f08ddaf92926ebdac67a8"
+    }, {
+      "name" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nAstra Daihatsu Motor\nDaihatsu Terios\nDaihatsu E-series engine\nDaihatsu Midget\nDaihatsu Charade\nDaihatsu Charmant\nDaihatsu Tanto\nDaihatsu Rugger\nDaihatsu Mira\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu K-series engine\nDaihatsu Sigra\nDaihatsu Rocky (A200)\nDaihatsu Ayla\nDaihatsu J-series engine\nDaihatsu New Global Architecture\nDaihatsu Wake\nDaihatsu Move Canbus\nToyota bB\nDaihatsu Esse\nDaihatsu-class landing craft\nDaihatsu C-series engine\nDaihatsu Thor\nSubaru\nDaihatsu H-series engine\nPerodua Myvi\nList of Toyota vehicles\nDaihatsu Mira e:S\nToyota KR engine\nDaihatsu Storia\nDaihatsu Compagno\nList of Subaru vehicles\nToku Daihatsu-class landing craft\n>",
+      "children" : [ {
+        "name" : "TC20-Search/több oldalas lista bejárása/full list check",
+        "uid" : "de10a1b8bc7cd510",
+        "parentUid" : "82ab4539450a336d54a11c6037ef8b8a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629476477330,
+          "stop" : 1629476480401,
+          "duration" : 3071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82ab4539450a336d54a11c6037ef8b8a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='wpName2']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-896', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.A7AIk0}, goog:chromeOptions: {debuggerAddress: localhost:38715}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51911b0e7d20068e967cfe68fd35b2fe\n*** Element info: {Using=xpath, value=//*[@id='wpName2']}",
+      "children" : [ {
+        "name" : "CreateAccountCheck()",
+        "uid" : "82538c370cbcda88",
+        "parentUid" : "5f65558b77f8326b74d7b845f1319f7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629476480406,
+          "stop" : 1629476492061,
+          "duration" : 11655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f65558b77f8326b74d7b845f1319f7b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
