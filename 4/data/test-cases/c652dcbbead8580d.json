@@ -1,0 +1,148 @@
+{
+  "uid" : "c652dcbbead8580d",
+  "name" : "TC11-Bejelentkezés/invalid/special characters",
+  "fullName" : "loginpage.LoginPageTest.ZeroLogInTest2",
+  "historyId" : "6fd521975ffa863d9d350b07c49db290",
+  "time" : {
+    "start" : 1629572325782,
+    "stop" : 1629572327647,
+    "duration" : 1865
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629572325783,
+      "stop" : 1629572326438,
+      "duration" : 655
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a7f130b7224f4b6",
+      "name" : "Screenshot",
+      "source" : "9a7f130b7224f4b6.png",
+      "type" : "image/png",
+      "size" : 77406
+    }, {
+      "uid" : "b3cdf016c8a589cc",
+      "name" : "Screenshot",
+      "source" : "b3cdf016c8a589cc.png",
+      "type" : "image/png",
+      "size" : 79447
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629572327581,
+      "stop" : 1629572327647,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "6500@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ZeroLogInTest2"
+  }, {
+    "name" : "suite",
+    "value" : "loginpage.LoginPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "94815bb174a3490c",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/94815bb174a3490c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629476184433,
+          "stop" : 1629476186099,
+          "duration" : 1666
+        }
+      }, {
+        "uid" : "29884197ab562e19",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/29884197ab562e19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629474769355,
+          "stop" : 1629474771219,
+          "duration" : 1864
+        }
+      }, {
+        "uid" : "86b393af29d41bde",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/86b393af29d41bde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473450621,
+          "stop" : 1629473452356,
+          "duration" : 1735
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c652dcbbead8580d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "2d2bd30a75bff6e4",
+  "name" : "TC13-Privacy Policy/link ,Adatkezelési nyilatkozat használata",
+  "fullName" : "homepage.HomePageTest.testPrivacyAndPolicyLink",
+  "historyId" : "17a47154c2c9d5a938c4bf52e16e46b4",
+  "time" : {
+    "start" : 1629572342463,
+    "stop" : 1629572343380,
+    "duration" : 917
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629572342463,
+      "stop" : 1629572343026,
+      "duration" : 563
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629572343315,
+      "stop" : 1629572343380,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "6500@fv-az39-896.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPrivacyAndPolicyLink"
+  }, {
+    "name" : "suite",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7b7992f2cd5bcae",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/7b7992f2cd5bcae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629476202037,
+          "stop" : 1629476203052,
+          "duration" : 1015
+        }
+      }, {
+        "uid" : "32c1297f1b4f06ba",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/32c1297f1b4f06ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629474787042,
+          "stop" : 1629474788196,
+          "duration" : 1154
+        }
+      }, {
+        "uid" : "832a40d322ad7bc4",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/832a40d322ad7bc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473467027,
+          "stop" : 1629473468010,
+          "duration" : 983
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d2bd30a75bff6e4.json",
+  "parameterValues" : [ ]
+}
