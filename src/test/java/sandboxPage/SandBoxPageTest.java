@@ -21,9 +21,9 @@ Csak a Sandbox viselkedésének a feltérképezésére szolgál*/
     FirstPage firstPage;
     LoginPage loginPage;
 
-    public final By sandBox = By.xpath("//*[@id='pt-sandbox']/a");
-    public final By textfield = By.xpath("//*[@id='wpTextbox1']");
-    public final By preview = By.xpath("//*[@id='wpPreview']");
+    public final By SAND_BOX = By.xpath("//*[@id='pt-sandbox']/a");
+    public final By TEXT_FIELD = By.xpath("//*[@id='wpTextbox1']");
+    public final By PREVIEW = By.xpath("//*[@id='wpPreview']");
 }
     /*@Test
     @Disabled
@@ -36,15 +36,15 @@ Csak a Sandbox viselkedésének a feltérképezésére szolgál*/
         TakeScreenshot();
         FirstPage firstPage = new FirstPage(driver);
         Utils utils = new Utils(driver);
-        utils.setWait(sandBox);
+        utils.setWait(SAND_BOX);
         firstPage.clickSandBoxButton();
         TakeScreenshot();
         TakeScreenshot();
         SandBoxPage sandboxPage = new SandBoxPage(driver);
         sandboxPage.textFieldClear();
         sandboxPage.repeatedMultiInput();
-        Assertions.assertFalse(driver.findElement(textfield).getText().contains("bicikli"));
-        Assertions.assertTrue(driver.findElement(textfield).getText().contains("A picike papucs."));
+        Assertions.assertFalse(driver.findElement(TEXT_FIELD).getText().contains("bicikli"));
+        Assertions.assertTrue(driver.findElement(TEXT_FIELD).getText().contains("A picike papucs."));
     }
     @Step("TakeScreenshot")
     public void TakeScreenshot(){
@@ -63,31 +63,31 @@ Csak a Sandbox viselkedésének a feltérképezésére szolgál*/
         firstPage = new FirstPage(driver);
         TakeScreenshot();
         Utils utils = new Utils(driver);
-        utils.setWait(sandBox);
+        utils.setWait(SAND_BOX);
         firstPage.clickSandBoxButton();
         TakeScreenshot();
         SandBoxPage sandboxPage = new SandBoxPage(driver);
         sandboxPage.textFieldSendData("I am an old data, you need to change me!");
         utils = new Utils(driver);
         Utils.scrollDown(driver);
-        utils.setWait(preview);
+        utils.setWait(PREVIEW);
         SandBoxPage sandboxPage2 = new SandBoxPage(driver);
         sandboxPage2.clickShowPreviewButton();
-        utils.setWait(preview);
-        Assertions.assertTrue(driver.findElement(textfield).getText().contains("I am an old data, you need to change me!"));
+        utils.setWait(PREVIEW);
+        Assertions.assertTrue(driver.findElement(TEXT_FIELD).getText().contains("I am an old data, you need to change me!"));
         sandboxPage.textFieldClick();
         sandboxPage.textFieldClear();
         sandboxPage.clickShowPreviewButton();
-        utils.setWait(preview);
-        Assertions.assertFalse(driver.findElement(textfield).getText().contains("I am an old data"));
+        utils.setWait(PREVIEW);
+        Assertions.assertFalse(driver.findElement(TEXT_FIELD).getText().contains("I am an old data"));
         sandboxPage.textFieldClick();
         sandboxPage.textFieldSendData("I am the new data!");
         utils = new Utils(driver);
         Utils.scrollDown(driver);
         utils.setWait(preview);
         sandboxPage.clickShowPreviewButton();
-        utils.setWait(preview);
-        Assertions.assertTrue(driver.findElement(textfield).getText().contains("I am the new data!"));
+        utils.setWait(PREVIEW);
+        Assertions.assertTrue(driver.findElement(TEXT_FIELD).getText().contains("I am the new data!"));
     }
 
 }*/

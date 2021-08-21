@@ -3,8 +3,6 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
@@ -14,11 +12,13 @@ public class HomePage {
 
     private final WebDriver driver;
 
-    public final By loginButton = By.xpath("//*[@id=\"pt-login\"]/a");
-    private final By createAccountButton = By.xpath("//*[@id=\"pt-createaccount\"]/a");
-    private final By privacyPolicyButton = By.xpath("//*[@id='footer-places-privacy']/a");
-    private final By SearchInputField = By.xpath("//*[@id='searchInput']");
-    private final By SearchButton = By.xpath("//*[@id='searchButton']");
+    public final By LOGIN_BUTTON = By.xpath("//*[@id=\"pt-login\"]/a");
+    private final By CREATE_ACCOUNT_BUTTON = By.xpath("//*[@id=\"pt-createaccount\"]/a");
+    private final By PRIVACY_POLICY_BUTTON = By.xpath("//*[@id='footer-places-privacy']/a");
+    private final By SEARCH_INPUT_FIELD = By.xpath("//*[@id='searchInput']");
+    private final By SEARCH_BUTTON = By.xpath("//*[@id='searchButton']");
+    public final By SEARCH_FIELD = (By.xpath("//*[@id=\"mw-content-text\"]/div[3]"));
+    public String pathName ="src/main/resources/textForSearch.txt";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -26,28 +26,28 @@ public class HomePage {
 
 
     public void clickCreateAccountButton() {
-        driver.findElement(createAccountButton).click();
+        driver.findElement(CREATE_ACCOUNT_BUTTON).click();
         new CreateAccountPage(driver);
     }
 
     public void clickLoginButton() {
-        driver.findElement(loginButton).click();
+        driver.findElement(LOGIN_BUTTON).click();
         new FirstPage(driver);
     }
 
     public PrivacyPolicyPage clickPrivacyPolicyButton() {
-        driver.findElement(privacyPolicyButton).click();
+        driver.findElement(PRIVACY_POLICY_BUTTON).click();
         return new PrivacyPolicyPage(driver);
     }
 
 
     public void searchDataGeneral(String data) {
-        driver.findElement(SearchInputField).sendKeys(data);
-        driver.findElement(SearchButton).click();
+        driver.findElement(SEARCH_INPUT_FIELD).sendKeys(data);
+        driver.findElement(SEARCH_BUTTON).click();
     }
 
     public void searchData() {
-        driver.findElement(SearchButton).click();
+        driver.findElement(SEARCH_BUTTON).click();
         new SearchResultPage(driver);
     }
 
@@ -56,12 +56,12 @@ public class HomePage {
         String[] dataItem;
         for (int i = 0; i < 8; i++) {
             try {
-                File myfile = new File("src/main/resources/textForSearch.txt");
+                File myfile = new File(pathName);
                 Scanner scanner = new Scanner(myfile);
                 while (scanner.hasNextLine()) {
                     String data = scanner.nextLine();
                     dataItem = data.split(",");
-                    driver.findElement(SearchInputField).sendKeys(dataItem[i]);
+                    driver.findElement(SEARCH_INPUT_FIELD).sendKeys(dataItem[i]);
 
                 }
             } catch (FileNotFoundException e) {
@@ -72,13 +72,13 @@ public class HomePage {
     }
 
     public boolean FindingSearchedItems() {
-        List<WebElement> div = driver.findElements(By.xpath("//*[@id=\"mw-content-text\"]/div[3]"));
+        List<WebElement> div = driver.findElements(SEARCH_FIELD);
         boolean isPresent = false;
-        String LinksText = "";
+        StringBuilder LinksText = new StringBuilder();
         for (WebElement webElement : div) {
             WebElement link = webElement.findElement(By.xpath(".//a"));
-            LinksText += (link.getText());
-            if (LinksText.contains("tea")) {
+            LinksText.append(link.getText());
+            if (LinksText.toString().contains("tea")) {
                 isPresent = true;
             }
         }
@@ -86,13 +86,13 @@ public class HomePage {
     }
 
     public boolean FindingSearchedItemsGeneral(String data) {
-        List<WebElement> div = driver.findElements(By.xpath("//*[@id=\"mw-content-text\"]/div[3]"));
+        List<WebElement> div = driver.findElements(SEARCH_FIELD);
         boolean isPresent = false;
-        String LinksText = "";
+        StringBuilder LinksText = new StringBuilder();
         for (WebElement webElement : div) {
             WebElement link = webElement.findElement(By.xpath(".//a"));
-            LinksText += (link.getText());
-            if (LinksText.contains(data)) {
+            LinksText.append(link.getText());
+            if (LinksText.toString().contains(data)) {
                 isPresent = true;
             }
         }

@@ -18,12 +18,12 @@ public class PrivacyPolicyPage {
     public final By summary = (By.xpath("//*[@id=\"mw-content-text\"]/div[1]/div[3]/div"));
 
     public String getTextFromPolicy(){
-        String text= driver.findElement(presentPolicy).getText();
+        String text = driver.findElement(presentPolicy).getText();
         return text;
     }
 
     public String getTextFromSummary(){
-        String textSummary= driver.findElement(summary).getText();
+        String textSummary = driver.findElement(summary).getText();
         return textSummary;
     }
 }

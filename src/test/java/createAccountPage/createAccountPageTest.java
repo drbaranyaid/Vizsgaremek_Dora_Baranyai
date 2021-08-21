@@ -13,6 +13,7 @@ import java.io.ByteArrayInputStream;
 
 
 public class createAccountPageTest extends BaseTest {
+    public String expected = "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page";
 
 /*Az oldalt érintő, a tesztmenedzser mappában található regisztrációs tesztesetek (TC01-TC03) manuálisan kerültek elvégzésre, tekintettel arra,
  hogy a Github-on történő futtatás során készült fényképfelvételeknek megfelelőn a futtatás során használt IP cím blokkolásra került a Wikipédia
@@ -33,7 +34,7 @@ public class createAccountPageTest extends BaseTest {
         TakeScreenshot2();
         createAccountPage.clickCreateAccountButton();
         TakeScreenshot2();
-        Assertions.assertEquals("https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Main+Page", getDriver().getCurrentUrl());
+        Assertions.assertEquals(expected, getDriver().getCurrentUrl());
     }
     @Step("TakeScreenshot2")
     public void TakeScreenshot2(){

@@ -11,8 +11,9 @@ import java.util.Scanner;
 public class SandBoxPage {
 
     public WebDriver driver;
-    public final By textfield = By.xpath("//*[@id=\"wpTextbox1\"]");
-    public final By preview = By.xpath("//*[@id=\"wpPreview\"]");
+    public final By TEXT_FIELD = By.xpath("//*[@id=\"wpTextbox1\"]");
+    public final By PREVIEW = By.xpath("//*[@id=\"wpPreview\"]");
+    public String path = "src/main/resources/notes.txt";
 
     public SandBoxPage(WebDriver driver) {
         this.driver = driver;
@@ -20,30 +21,30 @@ public class SandBoxPage {
 
 
     public void textFieldClear() {
-        driver.findElement(textfield).clear();
+        driver.findElement(TEXT_FIELD).clear();
     }
 
     public void textFieldSendData(String text) {
-        driver.findElement(textfield).sendKeys(text);
+        driver.findElement(TEXT_FIELD).sendKeys(text);
     }
 
     public void clickShowPreviewButton() {
-        driver.findElement(preview).click();
+        driver.findElement(PREVIEW).click();
     }
 
     public void textFieldClick() {
-        driver.findElement(textfield).click();
+        driver.findElement(TEXT_FIELD).click();
     }
 
     public void repeatedMultiInput() {
         for (int j = 0; j < 9; j++) {
             try {
-                File myfile = new File("src/main/resources/notes.txt");
+                File myfile = new File(path);
                 Scanner scanner = new Scanner(myfile);
                 while (scanner.hasNextLine()) {
                     String data = scanner.nextLine();
                     System.out.println();
-                    driver.findElement(textfield).sendKeys(data + " ");
+                    driver.findElement(TEXT_FIELD).sendKeys(data + " ");
 
                 }
             } catch (FileNotFoundException e) {
@@ -57,9 +58,9 @@ public class SandBoxPage {
         }
 
         Utils utils = new Utils(driver);
-        utils.setWait(preview);
+        utils.setWait(PREVIEW);
         clickShowPreviewButton();
-        utils.setWait(textfield);
+        utils.setWait(TEXT_FIELD);
 
 
     }
