@@ -10,7 +10,7 @@ Bonigarcia-féle webdriver manager-t használok, Google Chrome böngészővel a 
 A teszt riportok generálása ALLURE segítségével történik.
 A tesztjelentések az alábbi linken érhetőek el: https://drbaranyaid.github.io/TestWikipediaPOM/
 
-A program működésének alapját a maven.yml és pom.xml file-ok tartalmazzák. Push-sal automatikusan futnak a tesztek a Github-on.
+A program működésének alapját a maven.yml és pom.xml file-ok tartalmazzák. A kód felküldésével (push) automatikusan futnak a tesztek a Github-on.
 
 A WikiPédia_Tesztmenedzser_BaranyaiDóra elnevezésű file-ban rögzített teszteredmények a Github-on történő futtatás során eltérhetnek a rögzített eredménytől,
 tekintettel arra, hogy a Github-on az oldal könnyebben észleli a robottevékenységet, és ezáltal más oldalakra irányít, váratlan captcha ablakokat dob fel,
@@ -18,3 +18,5 @@ illetve a várttól eltérő errorbox jelenhet meg. Ezért a tesztek kimenetele 
 
 A profil módosítása, profil adat törlése a bejelentkezés captcha problémái miatt nem voltak elérhetőek, ezért a Search mező használatával valósítottam meg ezen funkciók tesztelését a vizsgaremekben.
 A saját gépi futtatás során készült jelentések az allure-results mappában érhetőek el.
+
+A Vizsgaremek készítése során készült korábbi kódfejlesztéseim a TesztWikipediaPOM elnevezésű nyilvános repository-ban találhatóak a profiloldalamon.
