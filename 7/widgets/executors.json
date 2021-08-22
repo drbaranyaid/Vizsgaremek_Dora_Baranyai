@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #1155136729",
+  "buildUrl" : "https://github.com/drbaranyaid/Vizsgaremek_Dora_Baranyai/actions/runs/1155136729",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/7/"
+} ]

@@ -1,0 +1,152 @@
+{
+  "uid" : "499151bee52ab9c9",
+  "name" : "TC23-Search/több oldalas lista bejárása/contains",
+  "fullName" : "searchResultPage.SearchResultPageTest.SearchPagesContainsCheck",
+  "historyId" : "7028a51c405ec39045307408da048329",
+  "time" : {
+    "start" : 1629612296025,
+    "stop" : 1629612299205,
+    "duration" : 3180
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629612296025,
+      "stop" : 1629612296628,
+      "duration" : 603
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629612299137,
+      "stop" : 1629612299205,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "6279@fv-az47-486.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchPagesContainsCheck"
+  }, {
+    "name" : "suite",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "2e6f3366484da90f",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/6//#testresult/2e6f3366484da90f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629609319217,
+          "stop" : 1629609322633,
+          "duration" : 3416
+        }
+      }, {
+        "uid" : "26bea92aa9394b1a",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/5//#testresult/26bea92aa9394b1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629607667169,
+          "stop" : 1629607670270,
+          "duration" : 3101
+        }
+      }, {
+        "uid" : "d6aa9a0bcc19fe7c",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/4//#testresult/d6aa9a0bcc19fe7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629572552199,
+          "stop" : 1629572555779,
+          "duration" : 3580
+        }
+      }, {
+        "uid" : "43d7ecdfc363f56b",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/43d7ecdfc363f56b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629476426722,
+          "stop" : 1629476429976,
+          "duration" : 3254
+        }
+      }, {
+        "uid" : "6b157a83c51274c4",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/6b157a83c51274c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629475020493,
+          "stop" : 1629475023817,
+          "duration" : 3324
+        }
+      }, {
+        "uid" : "4da8cc3c989bf5d2",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/4da8cc3c989bf5d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473648815,
+          "stop" : 1629473651881,
+          "duration" : 3066
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "499151bee52ab9c9.json",
+  "parameterValues" : [ ]
+}
