@@ -30,10 +30,7 @@ public class FirstPage {
         new SpecialLogoutPage(driver);
     }
 
-    public void clickSandBoxButton() {
-        driver.findElement(SAND_BOX_BUTTON).click();
-        new SandBoxPage(driver);
-    }
+
 
     public StringBuilder writeToAFile() {
         WebElement news = driver.findElement(IN_THE_NEWS);
