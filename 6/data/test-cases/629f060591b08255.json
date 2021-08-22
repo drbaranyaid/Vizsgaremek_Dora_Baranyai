@@ -1,0 +1,160 @@
+{
+  "uid" : "629f060591b08255",
+  "name" : "TC25-Adatok lementése felületről2",
+  "fullName" : "homepage.HomePageTest.SaveToFile2",
+  "historyId" : "1300ae392f923849b1a923705405160b",
+  "time" : {
+    "start" : 1629609079920,
+    "stop" : 1629609081000,
+    "duration" : 1080
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629609079921,
+      "stop" : 1629609080522,
+      "duration" : 601
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d0a1e6f85e1e038",
+      "name" : "Screenshot",
+      "source" : "8d0a1e6f85e1e038.png",
+      "type" : "image/png",
+      "size" : 263223
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629609080932,
+      "stop" : 1629609081000,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "6381@fv-az82-980.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SaveToFile2"
+  }, {
+    "name" : "suite",
+    "value" : "homepage.HomePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "446fb235867a2003",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/5//#testresult/446fb235867a2003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629607442411,
+          "stop" : 1629607443441,
+          "duration" : 1030
+        }
+      }, {
+        "uid" : "1a7d4061c1eef6b8",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/4//#testresult/1a7d4061c1eef6b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629572343382,
+          "stop" : 1629572344400,
+          "duration" : 1018
+        }
+      }, {
+        "uid" : "6857fec582d4ba3c",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/6857fec582d4ba3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629476203054,
+          "stop" : 1629476204121,
+          "duration" : 1067
+        }
+      }, {
+        "uid" : "a61e46a9c89da2b3",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/a61e46a9c89da2b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629474788199,
+          "stop" : 1629474789390,
+          "duration" : 1191
+        }
+      }, {
+        "uid" : "ef04297b893ee877",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/ef04297b893ee877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629473468012,
+          "stop" : 1629473468981,
+          "duration" : 969
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "629f060591b08255.json",
+  "parameterValues" : [ ]
+}
