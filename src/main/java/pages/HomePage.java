@@ -71,19 +71,6 @@ public class HomePage {
 
     }
 
-    public boolean FindingSearchedItems() {
-        List<WebElement> div = driver.findElements(SEARCH_FIELD);
-        boolean isPresent = false;
-        StringBuilder LinksText = new StringBuilder();
-        for (WebElement webElement : div) {
-            WebElement link = webElement.findElement(By.xpath(".//a"));
-            LinksText.append(link.getText());
-            if (LinksText.toString().contains("tea")) {
-                isPresent = true;
-            }
-        }
-        return isPresent;
-    }
 
     public boolean FindingSearchedItemsGeneral(String data) {
         List<WebElement> div = driver.findElements(SEARCH_FIELD);

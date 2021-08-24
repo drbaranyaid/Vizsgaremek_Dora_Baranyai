@@ -27,20 +27,9 @@ public class SearchResultPage {
     List<WebElement> div = new ArrayList<>();
 
 
-    public String SearchPages() {
+    public <BY> String SearchPagesGeneral(BY data) {
         String linktext;
-        div = driver.findElements(RES_DIV);
-        for (WebElement webElement : div) {
-            linktext = webElement.getText();
-            result += linktext + "\n";
-        }
-        return result;
-    }
-
-
-    public String  SearchPagesFiat() {
-        String linktext;
-        div = driver.findElements(DIV4);
+        div = driver.findElements((By) data);
         for (WebElement webElement : div) {
             linktext = webElement.getText();
             result += linktext + "\n";

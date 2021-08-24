@@ -14,6 +14,8 @@ public class SearchResultPageTest extends BaseTest {
 
     private final By NEXT_20 = By.xpath("//*[@id='mw-content-text']/div[3]/p[2]/a[1]");
     private final By RESULT_FIELD = By.xpath("//*[@id=\"mw-content-text\"]/div[3]/p[1]/i/a[1]");
+    private final By RES_DIV = By.xpath("//*[@id='mw-content-text']/div[3]/ul/li/div/a");
+    private final By DIV4 = By.xpath("//*[@id=\"mw-content-text\"]/div[4]/ul/li/div/a");
     public String font = "Font types";
     public String next20 = "next 20";
     public String prev = "previous 20";
@@ -22,6 +24,7 @@ public class SearchResultPageTest extends BaseTest {
     public String daihatsu = "Daihatsu types";
     public String daihatsuText = "Daihatsu";
     public String fiat = "Polski Fiat types";
+
 
     public String resultFont = "List of typefaces\n" +
             "Typeface\n" +
@@ -187,15 +190,14 @@ public class SearchResultPageTest extends BaseTest {
             "List of World War II weapons of Poland\n";
 
 
-
     @Test
     @DisplayName("TC21-Search/több oldalas lista bejárása/full list check")
     public void SearchPagesListCheck() {
         SearchResultPage searchResultPage = new SearchResultPage(driver);
         homePage.searchDataGeneral(font);
-        String linkText = searchResultPage.SearchPages();
+        String linkText = searchResultPage.SearchPagesGeneral(RES_DIV);
         searchResultPage.ClickNext();
-        String linkText2 = linkText + searchResultPage.SearchPages();
+        String linkText2 = linkText + searchResultPage.SearchPagesGeneral(RES_DIV);
         Assertions.assertEquals(resultFont, linkText2);
     }
 
@@ -212,17 +214,17 @@ public class SearchResultPageTest extends BaseTest {
         Assertions.assertEquals(prev, driver.findElement(NEXT_20).getText());
     }
 
+
     @Test
     @DisplayName("TC23-Search/több oldalas lista bejárása/contains")
     public void SearchPagesContainsCheck() {
         SearchResultPage searchResultPage = new SearchResultPage(driver);
         homePage.searchDataGeneral(font);
-        String linktext = searchResultPage.SearchPages();
+        String linktext = searchResultPage.SearchPagesGeneral(RES_DIV);
         searchResultPage.ClickNext();
-        String linktext2 = linktext + searchResultPage.SearchPages();
+        String linktext2 = linktext + searchResultPage.SearchPagesGeneral(RES_DIV);
         Assertions.assertTrue(linktext2.contains(fontText));
     }
-
     @Test
     @DisplayName("TC16-Search/adatok listázása/link szöveg ellenőrzéssel")
     public void SearchOnePageResultCheck() {
@@ -230,7 +232,7 @@ public class SearchResultPageTest extends BaseTest {
         Assertions.assertEquals(font, driver.findElement(RESULT_FIELD).getText());
         Assertions.assertEquals(next20, driver.findElement(NEXT_20).getText());
         SearchResultPage searchResultPage = new SearchResultPage(driver);
-        Assertions.assertTrue(searchResultPage.SearchPages().contains(fontText));
+        Assertions.assertTrue(searchResultPage.SearchPagesGeneral(RES_DIV).contains(fontText));
     }
 
 
@@ -257,9 +259,9 @@ public class SearchResultPageTest extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.searchDataGeneral(daihatsu);
         SearchResultPage searchResultPage = new SearchResultPage(driver);
-        Assertions.assertTrue(searchResultPage.SearchPages().contains(daihatsuText));
+        Assertions.assertTrue(searchResultPage.SearchPagesGeneral(RES_DIV).contains(daihatsuText));
         searchResultPage.ClickNext();
-        Assertions.assertTrue(searchResultPage.SearchPages().contains(daihatsuText));
+        Assertions.assertTrue(searchResultPage.SearchPagesGeneral(RES_DIV).contains(daihatsuText));
     }
 
     @Test
@@ -268,9 +270,9 @@ public class SearchResultPageTest extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.searchDataGeneral(daihatsu);
         SearchResultPage searchResultPage = new SearchResultPage(driver);
-        searchResultPage.SearchPages();
+        searchResultPage.SearchPagesGeneral(RES_DIV);
         searchResultPage.ClickNext();
-        Assertions.assertEquals(resultDaihatsu, searchResultPage.SearchPages());
+        Assertions.assertEquals(resultDaihatsu, searchResultPage.SearchPagesGeneral(RES_DIV));
     }
 
     @Test
@@ -279,11 +281,11 @@ public class SearchResultPageTest extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.searchDataGeneral(fiat);
         SearchResultPage searchResultPage= new SearchResultPage(driver);
-        String linkText=searchResultPage.SearchPagesFiat();
+        String linkText=searchResultPage.SearchPagesGeneral(DIV4);
         searchResultPage.ClickNextFiat();
-        String linkText2= linkText+searchResultPage.SearchPagesFiat();
+        String linkText2= linkText+searchResultPage.SearchPagesGeneral(DIV4);
         searchResultPage.ClickNext2Fiat();
-        String linkText3= linkText2+searchResultPage.SearchPagesFiat();
+        String linkText3= linkText2+searchResultPage.SearchPagesGeneral(DIV4  );
         Assertions.assertEquals(resultFiat, linkText3);
     }
 
