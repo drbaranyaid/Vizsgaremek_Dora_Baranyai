@@ -1,0 +1,281 @@
+[ {
+  "uid" : "46099a797ffcf2ed",
+  "name" : "TC26- új adatok bevitele, meglévő adat módosítása és törlése",
+  "time" : {
+    "start" : 1629798069027,
+    "stop" : 1629798072270,
+    "duration" : 3243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e7aa4673ef1d55d",
+  "name" : "TC08-Bejelentkezés/invalid",
+  "time" : {
+    "start" : 1629798060513,
+    "stop" : 1629798062450,
+    "duration" : 1937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e107626b16ecd6c",
+  "name" : "TC24-Search/ismételt és sorozatos adatbevitel adatforrásból",
+  "time" : {
+    "start" : 1629798074510,
+    "stop" : 1629798076759,
+    "duration" : 2249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7c059b2d9693ab9",
+  "name" : "TC27-Search/több oldalas lista összes oldala bejárása/full list check",
+  "time" : {
+    "start" : 1629798316622,
+    "stop" : 1629798360278,
+    "duration" : 43656
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d06d4686f902a490",
+  "name" : "TC05-Bejelentkezés/valid",
+  "time" : {
+    "start" : 1629798046366,
+    "stop" : 1629798052236,
+    "duration" : 5870
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b8293bb593d73a6",
+  "name" : "TC07-Kijelentkezés tesztelése",
+  "time" : {
+    "start" : 1629798375165,
+    "stop" : 1629798379880,
+    "duration" : 4715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b72e94f05192ff5",
+  "name" : "CreateAccountCheck()",
+  "time" : {
+    "start" : 1629798363446,
+    "stop" : 1629798375154,
+    "duration" : 11708
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c616508db271897",
+  "name" : "TC09-Bejelentkezés/invalid",
+  "time" : {
+    "start" : 1629798062453,
+    "stop" : 1629798066057,
+    "duration" : 3604
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cadaede2596b479c",
+  "name" : "TC18-Search/adatok listázása/teljes oldalbejárással/találatok száma",
+  "time" : {
+    "start" : 1629798184307,
+    "stop" : 1629798301308,
+    "duration" : 117001
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1f0d441740dad97",
+  "name" : "TC17-Search/adatok listázása/teljes oldalbejárással",
+  "time" : {
+    "start" : 1629798079192,
+    "stop" : 1629798184304,
+    "duration" : 105112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b39b89995fc8088",
+  "name" : "TC20-Search/több oldalas lista bejárása/full list check",
+  "time" : {
+    "start" : 1629798360282,
+    "stop" : 1629798363438,
+    "duration" : 3156
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "850852460eab5c7c",
+  "name" : "pageCheckLogin()",
+  "time" : {
+    "start" : 1629798076761,
+    "stop" : 1629798078052,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9186b5310059cb39",
+  "name" : "TC25-Adatok lementése felületről2",
+  "time" : {
+    "start" : 1629798073389,
+    "stop" : 1629798074507,
+    "duration" : 1118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c755ff03d321a55",
+  "name" : "TC10-Bejelentkezés/invalid/special characters",
+  "time" : {
+    "start" : 1629798054322,
+    "stop" : 1629798056181,
+    "duration" : 1859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d68f3dc246758acd",
+  "name" : "TC21-Search/több oldalas lista bejárása/full list check",
+  "time" : {
+    "start" : 1629798313429,
+    "stop" : 1629798316618,
+    "duration" : 3189
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48b2a6e347ecafe",
+  "name" : "TC23-Search/több oldalas lista bejárása/contains",
+  "time" : {
+    "start" : 1629798309524,
+    "stop" : 1629798313427,
+    "duration" : 3903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "832bcb287ac4a269",
+  "name" : "TC16-Search/adatok listázása/link szöveg ellenőrzéssel",
+  "time" : {
+    "start" : 1629798304204,
+    "stop" : 1629798306350,
+    "duration" : 2146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c8fe27c84dbdd52",
+  "name" : "TC14-Privacy Policy/verzió,Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629798386165,
+    "stop" : 1629798387282,
+    "duration" : 1117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "522717a62d4a5b26",
+  "name" : "TC04-Bejelentkezés/valid",
+  "time" : {
+    "start" : 1629798056185,
+    "stop" : 1629798060510,
+    "duration" : 4325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a39413818efd463",
+  "name" : "TC19-Search/több oldalas lista bejárása/contains",
+  "time" : {
+    "start" : 1629798306352,
+    "stop" : 1629798309522,
+    "duration" : 3170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82282fc87652a552",
+  "name" : "TC13-Privacy Policy/link ,Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629798072273,
+    "stop" : 1629798073387,
+    "duration" : 1114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81704d7b2a862316",
+  "name" : "TC22-Search/több oldalas lista bejárása/page check",
+  "time" : {
+    "start" : 1629798301312,
+    "stop" : 1629798304201,
+    "duration" : 2889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cc262a3dc49d8ab",
+  "name" : "pageCheckCreateAccount()",
+  "time" : {
+    "start" : 1629798067732,
+    "stop" : 1629798069025,
+    "duration" : 1293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77a4d3dad4cd5c28",
+  "name" : "SearchDataLink()",
+  "time" : {
+    "start" : 1629798066084,
+    "stop" : 1629798067729,
+    "duration" : 1645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "503c862226d1f8fc",
+  "name" : "TC12-Privacy Policy/present,Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629798078057,
+    "stop" : 1629798079187,
+    "duration" : 1130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a483f83dc5e65ed",
+  "name" : "TC11-Bejelentkezés/invalid/special characters",
+  "time" : {
+    "start" : 1629798052294,
+    "stop" : 1629798054317,
+    "duration" : 2023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0b7f63092ae4d6",
+  "name" : "TC06-Kijelentkezés tesztelése",
+  "time" : {
+    "start" : 1629798379883,
+    "stop" : 1629798384876,
+    "duration" : 4993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b39054c4f80a0034",
+  "name" : "TC15-Privacy Policy/tartalom,Adatkezelési nyilatkozat használata",
+  "time" : {
+    "start" : 1629798384879,
+    "stop" : 1629798386162,
+    "duration" : 1283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
