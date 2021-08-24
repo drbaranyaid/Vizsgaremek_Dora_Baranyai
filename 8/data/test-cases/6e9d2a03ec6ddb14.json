@@ -1,0 +1,174 @@
+{
+  "uid" : "6e9d2a03ec6ddb14",
+  "name" : "TC20-Search/több oldalas lista bejárása/full list check",
+  "fullName" : "searchResultPage.SearchResultPageTest.SearchPagesTestListCheck2",
+  "historyId" : "286ff8f3a47791bb0018190fae279b96",
+  "time" : {
+    "start" : 1629798255021,
+    "stop" : 1629798257684,
+    "duration" : 2663
+  },
+  "description" : "",
+  "status" : "failed",
+  "statusMessage" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Move\nDaihatsu Terios\nDaihatsu Copen\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Charade\nDaihatsu Tanto\nDaihatsu Hijet\nDaihatsu Rugger\nDaihatsu Charmant\nDaihatsu E-series engine\nToyota SZ engine\nToyota Avanza\nDaihatsu Boon\nDaihatsu New Global Architecture\nDaihatsu K-series engine\nDaihatsu Rocky (A200)\nDaihatsu Ayla\nDaihatsu K-series engine\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu-class landing craft\nDaihatsu Cast\nDaihatsu Compagno\nSubaru\nDaihatsu Wake\nDaihatsu J-series engine\nDaihatsu Thor\nDaihatsu Esse\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Mira e:S\nList of Subaru vehicles\nToyota KR engine\nToku Daihatsu-class landing craft\nList of Toyota vehicles\nDaihatsu C-series engine\nDaihatsu Gran Max\n>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Move\nDaihatsu Terios\nDaihatsu Copen\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Charade\nDaihatsu Tanto\nDaihatsu Hijet\nDaihatsu Rugger\nDaihatsu Charmant\nDaihatsu E-series engine\nToyota SZ engine\nToyota Avanza\nDaihatsu Boon\nDaihatsu New Global Architecture\nDaihatsu K-series engine\nDaihatsu Rocky (A200)\nDaihatsu Ayla\nDaihatsu K-series engine\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu-class landing craft\nDaihatsu Cast\nDaihatsu Compagno\nSubaru\nDaihatsu Wake\nDaihatsu J-series engine\nDaihatsu Thor\nDaihatsu Esse\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Mira e:S\nList of Subaru vehicles\nToyota KR engine\nToku Daihatsu-class landing craft\nList of Toyota vehicles\nDaihatsu C-series engine\nDaihatsu Gran Max\n>\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)\n\tat searchResultPage.SearchResultPageTest.SearchPagesTestListCheck2(SearchResultPageTest.java:275)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)\n\tat org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)\n\tat org.junit.jupiter.api.extension.InvocationInterceptor.interceptTestMethod(InvocationInterceptor.java:117)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)\n\tat org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)\n\tat org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)\n\tat org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)\n\tat org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.executeNonConcurrentTasks(ForkJoinPoolHierarchicalTestExecutorService.java:155)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService.invokeAll(ForkJoinPoolHierarchicalTestExecutorService.java:135)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)\n\tat org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)\n\tat org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)\n\tat org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)\n\tat org.junit.platform.engine.support.hierarchical.ForkJoinPoolHierarchicalTestExecutorService$ExclusiveTask.compute(ForkJoinPoolHierarchicalTestExecutorService.java:185)\n\tat java.base/java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)\n\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)\n\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)\n\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)\n\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)\n\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629798255025,
+      "stop" : 1629798255521,
+      "duration" : 496
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629798257615,
+      "stop" : 1629798257683,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-939"
+  }, {
+    "name" : "thread",
+    "value" : "6276@fv-az82-939.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchPagesTestListCheck2"
+  }, {
+    "name" : "suite",
+    "value" : "searchResultPage.SearchResultPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "9385ed16960185dd",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/7//#testresult/9385ed16960185dd",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Rugger\nDaihatsu Terios\nDaihatsu E-series engine\nDaihatsu Tanto\nAstra Daihatsu Motor\nDaihatsu Charade\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nDaihatsu Cast\nToyota SZ engine\nDaihatsu Wake\nToyota Avanza\nDaihatsu K-series engine\nDaihatsu Sigra\nDaihatsu Rocky (A200)\nDaihatsu Ayla\nDaihatsu C-series engine\nDaihatsu New Global Architecture\nDaihatsu Move Canbus\nToyota bB\nDaihatsu Thor\nDaihatsu J-series engine\nDaihatsu Esse\nSubaru\nDaihatsu H-series engine\nDaihatsu-class landing craft\nDaihatsu Storia\nPerodua Myvi\nToyota KR engine\nDaihatsu Compagno\nList of Toyota vehicles\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629612346449,
+          "stop" : 1629612349440,
+          "duration" : 2991
+        }
+      }, {
+        "uid" : "2ab1e177c5418269",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/6//#testresult/2ab1e177c5418269",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu E-series engine\nDaihatsu Tanto\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Charmant\nDaihatsu Charade\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu K-series engine\nDaihatsu Cast\nDaihatsu Sigra\nDaihatsu Rocky (A200)\nDaihatsu Esse\nDaihatsu Ayla\nDaihatsu New Global Architecture\nDaihatsu Move Canbus\nDaihatsu Wake\nDaihatsu J-series engine\nToyota bB\nDaihatsu C-series engine\nDaihatsu Thor\nSubaru\nDaihatsu H-series engine\nDaihatsu-class landing craft\nPerodua Myvi\nToyota KR engine\nDaihatsu Mira e:S\nList of Toyota vehicles\nDaihatsu Storia\nToku Daihatsu-class landing craft\nDaihatsu Compagno\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629609369648,
+          "stop" : 1629609372755,
+          "duration" : 3107
+        }
+      }, {
+        "uid" : "59c04f5d003a7fa0",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/5//#testresult/59c04f5d003a7fa0",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nDaihatsu Terios\nDaihatsu Tanto\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Charade\nDaihatsu Rugger\nDaihatsu Boon\nToyota SZ engine\nDaihatsu Cast\nDaihatsu Rocky (A200)\nDaihatsu K-series engine\nToyota Avanza\nDaihatsu Sigra\nDaihatsu Esse\nDaihatsu Ayla\nDaihatsu Move Canbus\nDaihatsu Wake\nDaihatsu New Global Architecture\nDaihatsu J-series engine\nToyota bB\nDaihatsu C-series engine\nDaihatsu Thor\nSubaru\nDaihatsu H-series engine\nDaihatsu-class landing craft\nPerodua Myvi\nToyota KR engine\nDaihatsu Mira e:S\nList of Toyota vehicles\nDaihatsu Storia\nToku Daihatsu-class landing craft\nDaihatsu Compagno\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629607716833,
+          "stop" : 1629607719781,
+          "duration" : 2948
+        }
+      }, {
+        "uid" : "3d576aef51fdd37f",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/4//#testresult/3d576aef51fdd37f",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nDaihatsu Terios\nDaihatsu Tanto\nAstra Daihatsu Motor\nDaihatsu Mira\nDaihatsu Midget\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Charade\nDaihatsu Rugger\nDaihatsu Boon\nToyota SZ engine\nDaihatsu Cast\nDaihatsu K-series engine\nToyota Avanza\nDaihatsu Sigra\nDaihatsu Rocky (A200)\nDaihatsu Rocky (A200)\nDaihatsu J-series engine\nDaihatsu Esse\nDaihatsu New Global Architecture\nToyota bB\nDaihatsu Move Canbus\nDaihatsu Thor\nDaihatsu C-series engine\nDaihatsu Wake\nDaihatsu H-series engine\nDaihatsu-class landing craft\nSubaru\nPerodua Myvi\nDaihatsu Storia\nDaihatsu Compagno\nToyota KR engine\nList of Toyota vehicles\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629572604325,
+          "stop" : 1629572607881,
+          "duration" : 3556
+        }
+      }, {
+        "uid" : "de10a1b8bc7cd510",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/de10a1b8bc7cd510",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nAstra Daihatsu Motor\nDaihatsu Terios\nDaihatsu E-series engine\nDaihatsu Midget\nDaihatsu Charade\nDaihatsu Charmant\nDaihatsu Tanto\nDaihatsu Rugger\nDaihatsu Mira\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu K-series engine\nDaihatsu Sigra\nDaihatsu Rocky (A200)\nDaihatsu Ayla\nDaihatsu J-series engine\nDaihatsu New Global Architecture\nDaihatsu Wake\nDaihatsu Move Canbus\nToyota bB\nDaihatsu Esse\nDaihatsu-class landing craft\nDaihatsu C-series engine\nDaihatsu Thor\nSubaru\nDaihatsu H-series engine\nPerodua Myvi\nList of Toyota vehicles\nDaihatsu Mira e:S\nToyota KR engine\nDaihatsu Storia\nDaihatsu Compagno\nList of Subaru vehicles\nToku Daihatsu-class landing craft\n>",
+        "time" : {
+          "start" : 1629476477330,
+          "stop" : 1629476480401,
+          "duration" : 3071
+        }
+      }, {
+        "uid" : "752cfbc8ddee8b03",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/752cfbc8ddee8b03",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu E-series engine\nDaihatsu Midget\nDaihatsu Charmant\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Boon\nToyota SZ engine\nDaihatsu Hijet\nToyota Avanza\nDaihatsu K-series engine\nDaihatsu Cast\nDaihatsu Sigra\nDaihatsu Ayla\nDaihatsu Ayla\nDaihatsu Esse\nDaihatsu Rocky (A200)\nDaihatsu Wake\nDaihatsu New Global Architecture\nToyota bB\nDaihatsu-class landing craft\nDaihatsu J-series engine\nDaihatsu H-series engine\nSubaru\nDaihatsu Thor\nDaihatsu C-series engine\nPerodua Myvi\nDaihatsu Mira e:S\nList of Toyota vehicles\nToyota KR engine\nDaihatsu Storia\nToku Daihatsu-class landing craft\nDaihatsu Compagno\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629475070808,
+          "stop" : 1629475074123,
+          "duration" : 3315
+        }
+      }, {
+        "uid" : "41d94de1dab5a58",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/41d94de1dab5a58",
+        "status" : "failed",
+        "statusDetails" : "expected: <Daihatsu\nDaihatsu Move\nDaihatsu Copen\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu Midget\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu E-series engine\nDaihatsu Charmant\nDaihatsu Hijet\nDaihatsu Boon\nToyota SZ engine\nToyota Avanza\nDaihatsu Cast\nDaihatsu New Global Architecture\nDaihatsu Sigra\nDaihatsu Move Canbus\nDaihatsu Ayla\nDaihatsu Rocky (A200)\nDaihatsu Wake\nToyota bB\nDaihatsu K-series engine\nDaihatsu Esse\nDaihatsu Thor\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nDaihatsu J-series engine\nList of Subaru vehicles\nList of Toyota vehicles\nPerodua Myvi\nDaihatsu H-series engine\nDaihatsu Compagno\nToyota KR engine\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nDaihatsu Gran Max\n> but was: <Daihatsu\nDaihatsu Copen\nDaihatsu Move\nDaihatsu Terios\nAstra Daihatsu Motor\nDaihatsu E-series engine\nDaihatsu Midget\nDaihatsu Charmant\nDaihatsu Tanto\nDaihatsu Charade\nDaihatsu Mira\nDaihatsu Rugger\nDaihatsu Boon\nToyota SZ engine\nDaihatsu Hijet\nToyota Avanza\nDaihatsu K-series engine\nDaihatsu Cast\nDaihatsu Sigra\nDaihatsu New Global Architecture\nDaihatsu Ayla\nToyota bB\nDaihatsu New Global Architecture\nDaihatsu Move Canbus\nDaihatsu Esse\nDaihatsu Rocky (A200)\nDaihatsu Thor\nDaihatsu H-series engine\nDaihatsu J-series engine\nDaihatsu-class landing craft\nSubaru\nDaihatsu C-series engine\nPerodua Myvi\nToyota KR engine\nList of Toyota vehicles\nDaihatsu Storia\nDaihatsu Compagno\nDaihatsu Mira e:S\nToku Daihatsu-class landing craft\nList of Subaru vehicles\n>",
+        "time" : {
+          "start" : 1629473699246,
+          "stop" : 1629473701920,
+          "duration" : 2674
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6e9d2a03ec6ddb14.json",
+  "parameterValues" : [ ]
+}

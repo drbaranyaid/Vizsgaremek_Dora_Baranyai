@@ -1,0 +1,185 @@
+{
+  "uid" : "a95264df86f51140",
+  "name" : "TC06-Kijelentkezés tesztelése",
+  "fullName" : "firstPage.FirstPageTest.LogoutTest",
+  "historyId" : "4155b32fc8d46319699c66efb4c47ee1",
+  "time" : {
+    "start" : 1629798273273,
+    "stop" : 1629798277844,
+    "duration" : 4571
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1629798273273,
+      "stop" : 1629798273752,
+      "duration" : 479
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd919486ded4aba4",
+      "name" : "Screenshot",
+      "source" : "cd919486ded4aba4.png",
+      "type" : "image/png",
+      "size" : 259239
+    }, {
+      "uid" : "b2e1511d5df86b30",
+      "name" : "Screenshot",
+      "source" : "b2e1511d5df86b30.png",
+      "type" : "image/png",
+      "size" : 259241
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629798277773,
+      "stop" : 1629798277844,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-939"
+  }, {
+    "name" : "thread",
+    "value" : "6276@fv-az82-939.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "firstPage.FirstPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "firstPage.FirstPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "LogoutTest"
+  }, {
+    "name" : "suite",
+    "value" : "firstPage.FirstPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "d61423609b6e4c85",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/7//#testresult/d61423609b6e4c85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629612365479,
+          "stop" : 1629612370488,
+          "duration" : 5009
+        }
+      }, {
+        "uid" : "9e1c59741d80525f",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/6//#testresult/9e1c59741d80525f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629609388759,
+          "stop" : 1629609393596,
+          "duration" : 4837
+        }
+      }, {
+        "uid" : "e53204b277d01822",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/5//#testresult/e53204b277d01822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629607735726,
+          "stop" : 1629607740439,
+          "duration" : 4713
+        }
+      }, {
+        "uid" : "498ab0127fdf7676",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/4//#testresult/498ab0127fdf7676",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629572642004,
+          "stop" : 1629572648368,
+          "duration" : 6364
+        }
+      }, {
+        "uid" : "355c115791571a46",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/3//#testresult/355c115791571a46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629476496498,
+          "stop" : 1629476501375,
+          "duration" : 4877
+        }
+      }, {
+        "uid" : "f4f5c983fa28c1b1",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/2//#testresult/f4f5c983fa28c1b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629475090689,
+          "stop" : 1629475095643,
+          "duration" : 4954
+        }
+      }, {
+        "uid" : "595b33a2a4a67282",
+        "reportUrl" : "https://drbaranyaid.github.io/Vizsgaremek_Dora_Baranyai/1//#testresult/595b33a2a4a67282",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#pt-logout > a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-486', ip: '10.1.0.99', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.OJVBvV}, goog:chromeOptions: {debuggerAddress: localhost:39971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 312282d9cb5d6f6c2e923f07c1e61d8b\n*** Element info: {Using=css selector, value=#pt-logout > a}",
+        "time" : {
+          "start" : 1629473734861,
+          "stop" : 1629473756139,
+          "duration" : 21278
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a95264df86f51140.json",
+  "parameterValues" : [ ]
+}
